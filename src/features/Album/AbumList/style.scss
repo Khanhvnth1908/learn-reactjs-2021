@@ -1,0 +1,13 @@
+.albumList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & li{
+        list-style: none;
+
+        & img{
+            width: 80%;
+        }
+    }
+}
